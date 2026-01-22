@@ -37,7 +37,7 @@ export default function Learning() {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-black mb-4">Currently Learning</h2>
           <p className="text-lg text-gray-700 max-w-2xl mx-auto italic">
-            "I believe great design is a continuous process of learning, testing, and refining."
+            &quot;I believe great design is a continuous process of learning, testing, and refining.&quot;
           </p>
         </div>
         

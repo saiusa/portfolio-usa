@@ -32,7 +32,7 @@ export default function Hero() {
           </h1>
           
           <p className="text-lg text-gray-700 mb-8 leading-relaxed max-w-md">
-            I'm a UI/UX designer passionate about turning user problems into simple, meaningful digital experiences.
+            I&apos;m a UI/UX designer passionate about turning user problems into simple, meaningful digital experiences.
           </p>
           
           <a 
