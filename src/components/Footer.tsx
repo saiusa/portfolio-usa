@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
             <ul className="space-y-2">
-              <li><a href="mailto:sai@example.com" className="text-gray-400 hover:text-accent-yellow transition-colors">Email</a></li>
-              <li><a href="https://linkedin.com" className="text-gray-400 hover:text-accent-yellow transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-              <li><a href="https://github.com" className="text-gray-400 hover:text-accent-yellow transition-colors" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+              <li><a href="mailto:saishamia.design@gmail.com" className="text-gray-400 hover:text-accent-yellow transition-colors">Email</a></li>
+              <li><a href="https://www.linkedin.com/in/saishamirausa/" className="text-gray-400 hover:text-accent-yellow transition-colors" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><a href="https://github.com/saiusa" className="text-gray-400 hover:text-accent-yellow transition-colors" target="_blank" rel="noopener noreferrer">GitHub</a></li>
             </ul>
           </div>
         </div>
