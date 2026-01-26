@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero';
 import Projects from '@/components/Projects';
 import Learning from '@/components/Learning';
+import GetInTouch from '@/components/GetInTouch';
 import Footer from '@/components/Footer';
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <Projects />
       <Learning />
+      <GetInTouch />
       <Footer />
     </main>
   );
