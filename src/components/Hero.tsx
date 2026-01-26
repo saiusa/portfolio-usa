@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import gradPhoto from '../../public/images/grad-photo.jpg';
 
 export default function Hero() {
   return (
@@ -49,7 +48,7 @@ export default function Hero() {
           <div className="decorative-frame bg-accent-pink p-2 relative">
             <div className="relative w-full aspect-[3/4] bg-white rounded-2xl overflow-hidden">
               <Image 
-                src={gradPhoto}
+                src="/images/grad-photo.jpg"
                 alt="Sai - UI/UX Designer"
                 fill
                 sizes="(min-width: 768px) 50vw, 90vw"
