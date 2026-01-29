@@ -136,11 +136,6 @@ export default function GetInTouch() {
           {status === "error" && (
             <p className="text-sm text-red-600">{errorMessage}</p>
           )}
-          {!PUBLIC_KEY ? (
-            <p className="text-xs text-amber-700 bg-amber-50 border border-amber-200 rounded px-3 py-2">
-              Configure EmailJS env var in .env.local: NEXT_PUBLIC_EMAILJS_PUBLIC_KEY. Template defaults to template_56oohyc (override with NEXT_PUBLIC_EMAILJS_TEMPLATE_ID).
-            </p>
-          ) : null}
         </form>
       </div>
     </section>
