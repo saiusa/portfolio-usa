@@ -50,8 +50,8 @@ export default function Hero() {
               <Image 
                 src="/images/grad-photo.jpg"
                 alt="Sai - UI/UX Designer"
-                fill
-                sizes="(min-width: 768px) 50vw, 90vw"
+                width={400}
+                height={533}
                 className="object-cover w-full h-full"
                 priority
                 quality={90}
