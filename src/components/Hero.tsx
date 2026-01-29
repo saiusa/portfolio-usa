@@ -52,8 +52,9 @@ export default function Hero() {
                 alt="Sai - UI/UX Designer"
                 fill
                 sizes="(min-width: 768px) 50vw, 90vw"
-                className="object-cover"
+                className="object-cover w-full h-full"
                 priority
+                quality={90}
               />
             </div>
             
