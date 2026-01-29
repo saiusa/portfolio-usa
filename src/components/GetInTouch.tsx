@@ -50,8 +50,8 @@ export default function GetInTouch() {
           from_email: form.email,
           title: form.title,
           message: form.message,
+          to_email: "sai.usa@urios.edu.ph",
           reply_to: form.email,
-          to_name: "Portfolio", 
         },
         { publicKey: PUBLIC_KEY }
       );
