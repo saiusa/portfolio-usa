@@ -35,12 +35,6 @@ export default function GetInTouch() {
     setStatus("sending");
     setErrorMessage("");
 
-    if (!PUBLIC_KEY) {
-      setStatus("error");
-      setErrorMessage("Email service is not configured yet. Please set NEXT_PUBLIC_EMAILJS_PUBLIC_KEY.");
-      return;
-    }
-
     try {
       await emailjs.send(
         SERVICE_ID,
