@@ -14,7 +14,7 @@ type SendStatus = "idle" | "sending" | "sent" | "error";
 
 const SERVICE_ID = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || "service_9hf5n4v";
 const TEMPLATE_ID = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || "template_56oohyc";
-const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY; 
+const PUBLIC_KEY = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || "tPxthZ35QGk3Ez8jp"; 
 
 export default function GetInTouch() {
   const [form, setForm] = useState<FormState>({
