@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-4 py-20 bg-beige relative overflow-hidden">
@@ -47,13 +45,11 @@ export default function Hero() {
         <div className="relative">
           <div className="decorative-frame bg-accent-pink p-2 relative">
             <div className="relative w-full aspect-[3/4] bg-white rounded-2xl overflow-hidden">
-              <Image 
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img 
                 src="/images/grad-photo.jpg"
                 alt="Sai - UI/UX Designer"
-                width={400}
-                height={533}
                 className="object-cover w-full h-full"
-                priority
               />
             </div>
             
